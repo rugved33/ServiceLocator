@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604a033d58e124d27b0cb8af8bc0c9d3, type: 3}
+  m_Name: Troop Info
+  m_EditorClassIdentifier: 
+  troopsConfig:
+  - soldierPrefab: {fileID: 8681944708779324495, guid: bc3f00855e0994b5eb66581f68e59336, type: 3}
+    settingsID: PlayerSettings
+    maxTroopID: playerMaxAmount
+    teamType: 0
+  - soldierPrefab: {fileID: 2646881123848922236, guid: ed613903fbb34404ab9bcd70491e28a5, type: 3}
+    settingsID: EnemySettings
+    maxTroopID: enemyMaxAmount
+    teamType: 1
